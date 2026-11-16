@@ -1,0 +1,1 @@
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();var ok=this.checkValidity();if(!ok){this.reportValidity();return}document.getElementById('ok').style.display='block';});
